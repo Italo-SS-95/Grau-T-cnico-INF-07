@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">//
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="refresh" content="-1; url=http://example.com">
+    <meta http-equiv="refresh" content="5">
+    -->
+    <meta name="description" content="descrição">
+    <meta name="keywords" content="tags">
+    <meta name="author" content="autor">
+    <meta name="robots" content="">
+    <link rel="stylesheet" href="style.css" type="text/css">//
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>título</title>
+    <style>
+        * {
+            width: auto, height: auto;
+        }
+        html {
+            ;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>título</h1>
+
+        <hr>
+
+        <p>paragráfo</p>
+        <pre>prefromatação</pre>
+        <br>
+        &nbsp; &NonBreakingSpace;
+        &lt; &gt;
+        &copy;
+
+        <hr>
+
+        <b>negrito</b>
+        <strong>negrito semântico</strong>
+        <i>itálico</i>
+        <em>itálico semântico</em>
+        <del>riscado</del>
+        <mark>marcado</mark>
+        <ins>sublinhado</ins>
+        <u>sublinhado</u>
+        <sub>sobrescrito</sub>
+        <sup>subscrito</sup>
+        <big>maior</big>
+        <small>menor</small>
+
+        <hr>
+
+        <abbr title="abreviação">abbr</abbr>
+        <q>citação</q>
+        <blockquote>bloco de citação</blockquote>
+        <cite>citação de obra criativa</cite>
+        <address>endereços de contato</address>
+
+<bdo dir="ltr">esquerda para direita</bdo>
+<bdo dir="rtl">direita para esquerda</bdo>
+
+        <ol type="1">
+            <li> lista ordenada tipo numeral ordinal
+                <ol type="A">
+                    <li> lista ordenada tipo alfabeto caixa alta (maiúsculo)
+                        <ol type="a">lista ordenada tipo alfabeto caixa alta (minúsculo)
+                            <li>
+                                <ol type="I">lista ordenada tipo numeral ordinal romano
+                                    <li>
+                                        <ol type="i">
+                                            <li></li>
+                                        </ol>
+                                    </li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+
+        <ul>
+            <li>lista desordenada
+                <ul>
+                    <li>lista desordenada aninhada</li>
+                </ul>
+            </li>
+        </ul>
+
+        <dl>
+            <dt>lista descritiva
+            <dd>termo descrito</dd>
+            </dt>
+        </dl>
+
+        <a href="http://">URL</a>
+        <a href="mailto:">email como link</a>
+        <a href="tel:+">telefone</a>
+        <a href="#">TAG</a>
+        <a href="#html"></a>
+        <a href="/"></a>
+        <a href="" target="_blank"></a>
+        <a href="" target="_self"></a>
+        <a href="" download>baixar</a>
+
+        <figure>
+            <figcaption>legenda da figura</figcaption>
+
+        </figure>
+        
+        <img src="_larguraxaltura" alt="" loading="lazy">
+
+        <div>em bloco</div>
+        <span>em linha</span>
+
+        <nav>navegação</nav>
+        <nav aria-label="">navegação</nav>
+        <nav aria-labelledby="id"></nav>
+        <main>principal</main>
+        <section>seção</section>
+        <article>artigo</article>
+        <aside>ao lado</aside>
+        <details>detalhes
+            <summary>sumário</summary>
+        </details>
+        <time datetime="">tempo</time>
+
+        <code>Código_Computacional</code>
+        <kbd>Entrada_Teclado</kbd>
+
+        <table>
+            <caption>Legenda_Tabela</caption>
+            <thead>
+                <tr>
+                    <th>cabeçalho tabelar</th>
+                    <th scope="col"></th>
+                    <th id=""></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td>dado tabelar</td>
+                    <td rowspan=""></td>
+                    <td headers=""></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan=""></td>
+            </tfoot>
+        </table>
+
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>legenda do formulário</legend>
+                <label for=""></label>
+                <input type="text" name="" id="" placeholder="" autocomplete="off" required="off" autofocus="off">
+                <label for=""></label>
+                <input type="password" name="" id="" placeholder="">
+                <label for=""></label>
+                <input type="email" name="" name id="" placeholder="">
+                <label for=""></label>
+                <input type="tel" name="" id="" pattern="[0-9]{3}-">
+                
+                <label for=""></label>
+                <input type="checkbox" name="" id="" placeholder="">
+                <label for=""></label>
+                <input type="radio" name="" id="" placeholder="">
+                <label for=""></label>
+                
+                <input type="date" name="" id="" placeholder="">
+                <label for=""></label>
+                <input type="time" name="" id="">
+                <input type="week" name="" id="">
+                <input type="month" name="" id="">
+                <input type="datetime" name="" id="">
+                <input type="datetime-local" name="" id="">
+                
+                <input type="number" name="" id="" min="" max="" step="" value="">
+                <input type="range" name="" id="">
+                <input type="color" name="" id="" placeholder="">
+                
+
+                <input type="file" name="" id="">
+                <input type="image" src="" alt="">
+                <input type="url" name="" id="">
+                <input type="search" name="" id="">
+                
+
+                <input type="button" value="">
+                <input type="hidden" name="">
+                <label for=""></label>
+                <input type="reset" value="">
+                <input type="submit" value="">
+                
+                <input type="button" value="">
+                <select name="" id="" multiple>
+                    <option value="" selected></option>
+                </select>
+                <select name="" id="" multiple size="">
+                    <option value="" selected></option>
+                </select>
+                <select name="" id="">
+                    <optgroup>
+                        <option value=""></option>
+                    </optgroup>
+                </select>
+                <input type="text" name="" id="" list="">
+                <datalist>
+                    <option value=""></option>
+                </datalist>
+                
+                    <textarea name="" id="" cols="30" rows="10" placeholder=""></textarea>
+                </fieldset>
+                <button ></button>
+                <button type="button"></button>
+                <button disabled="disabled"></button>
+                <button type="reset"></button>
+                <button type="submit" formaction="" formmethod="" formtarget="" formenctype="" formnovalidate></button>
+        </form>
+        <form action="" method=""></form>
+        <form action="" method="post"></form>
+       
+        <canvas id="myCanvas" height="" width=""></canvas>
+<svg width="" height=""></svg>
+
+
+<video src="" controls muted loop autoplay></video>
+<audio src=""></audio>
+
+<youtube>
+    <iframe src="?autoplay=1&mute=1&loop=1&controls=0" frameborder="0"></iframe>
+</youtube>
+
+<!--plug-ins-->
+<object data="" type=""></object>
+
+<embed src="" type="">
+
+
+</body>
+<footer>
+
+</footer>
+
+</html>
